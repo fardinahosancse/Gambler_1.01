@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">8</string>
+    <string name="suffle_button">Suffle</string>
+    <string name="reset_button">Reset</string>
+</resources>

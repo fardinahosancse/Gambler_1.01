@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silk"
+    android:backgroundTint="@color/Silk"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="609dp"
+        android:layout_height="745dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/app_name"
+        android:translationY="-270sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arfsnf" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="437dp"
+            android:layout_height="362dp"
+            android:layout_marginTop="297dp"
+            android:contentDescription="@string/app_name"
+            android:translationY="140sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bottom" />
+
+        <Button
+            android:id="@+id/suffle_button"
+            android:layout_width="113dp"
+            android:layout_height="62dp"
+            android:backgroundTint="@color/Silk"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/suffle_button"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.117"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.973"/>
+
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="113dp"
+            android:layout_height="62dp"
+            android:backgroundTint="@color/Silk"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/reset_button"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.859"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.971"
+            tools:ignore="DuplicateIds" />
+
+        <ImageView
+            android:id="@+id/one_w"
+            android:layout_width="125dp"
+            android:layout_height="131dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.877"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499"
+            app:srcCompat="@drawable/one" />
+
+        <ImageView
+            android:id="@+id/six_w"
+            android:layout_width="125dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.49"
+            app:srcCompat="@drawable/six" />
+
+        <ImageView
+            android:id="@+id/two_w"
+            android:layout_width="125dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.881"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.783"
+            app:srcCompat="@drawable/two" />
+
+        <ImageView
+            android:id="@+id/three_w"
+            android:layout_width="125dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.783"
+            app:srcCompat="@drawable/three" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-27dp">
+
+
+            <ImageView
+                android:id="@+id/five_w"
+                android:layout_width="125dp"
+                android:layout_height="133dp"
+                android:contentDescription="@string/app_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.16"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.207"
+                app:srcCompat="@drawable/five" />
+
+            <ImageView
+                android:id="@+id/four_w"
+                android:layout_width="125dp"
+                android:layout_height="133dp"
+                android:contentDescription="@string/app_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.874"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.207"
+                app:srcCompat="@drawable/four" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
